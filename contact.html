@@ -19,6 +19,55 @@
         <link rel="stylesheet" href="css/contact.css">
     </head>
 <body>
-    
+    <!-- Google map embed -->
+
+    <!-- Main form -->
+    <form action="#">
+        <!-- Name, email, phone number? -->
+        <fieldset><legend>Please provide your contact information:</legend>
+            <label class="nameLabel" for="nameInput">Name:</label>
+                <input id="nameInput" type="text" placeholder="Enter your name here." required><br><br>
+
+            <label class="emailLabel" for="emailInput">Email:</label>
+                <input id="emailInput" type="email" placeholder="Enter your email here." required><br><br>
+                
+            <label class="phoneLabel" for="phoneInput">Phone:</label>
+                <input type="tel" id="phoneInput" name="phone" placeholder="(123)456-7890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </fieldset>
+
+        <!-- Preferred contact method? -->
+        <fieldset><legend>What is your preferred contact method?</legend>
+            <input type="radio" id="callMethod" name="contactMethod" value="callMethod">
+                <label id="callMethodLabel" for="callMethod">Call me.</label><br>
+
+            <input type="radio" id="textMethod" name="contactMethod" value="textMethod">
+                <label id="textMethodLabel" for="textMethod">Text me.</label><br>
+
+            <input type="radio" id="emailMethod" name="contactMethod" value="emailMethod">
+                <label id="emailMethodLabel" for="emailMethod">Email me.</label>
+        </fieldset>
+
+        <fieldset><legend>What is your skill level?</legend>
+            <input type="radio" id="professionalLevel" name="skillLevel" value="professionalLevel">
+            <label id="professionalLabel" for="professionalLevel">Professional</label><br>
+
+            <input type="radio" id="independentLevel" name="skillLevel" value="independentLevel">
+            <label id="independentLabel" for="independentLevel">Independent</label><br>
+
+            <input type="radio" id="hobbyistLevel" name="skillLevel" value="hobbyistLevel">
+            <label id="hobbyistLabel" for="hobbyistLevel">Hobbyist</label>
+
+            <!-- Dropdown form with "placeholder" blank answer -->
+            <label id="dropdown-label" for="dropdown">Favorite animal?</label>
+            <select id="dropdown" name="dropdown">
+                <option value="" disabled selected hidden></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </fieldset>
+
+    </form>
 </body>
 </html>
