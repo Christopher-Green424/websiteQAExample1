@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
+<body class="noAutoPos">
     <!-- Navbar - Sticky? -->
-    <nav>
+    <nav id="navBar">
         <!-- Logo pic -->
-        <a href="#"><img src="#" alt="Please hold the text"></a>
+        <img class="navBarLogo" src="#" alt="Please hold the text">
 
         <!-- Links -->
         <ul>
@@ -34,8 +34,10 @@
     <!-- Main body of page -->
     <main>
         <!-- Hero image in div background with text overlay-->
-        <div>
-
+        <div role="img" aria-label="A picture of a part of Millerton Lake" class="heroImage">
+            <div class="heroText headingText">
+                <h1>Millerton Lake</h1>
+            </div>
         </div>
 
         <!-- CSS Grid holding figures with figcaptions-->

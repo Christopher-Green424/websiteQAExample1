@@ -18,3 +18,71 @@ Heron - https://pixabay.com/users/mabelamber-1377835/
 font-family: 'Hina Mincho', serif;
 font-family: 'IBM Plex Sans', sans-serif;
 */
+
+body {
+        font-family: 'IBM Plex Sans', sans-serif;
+        background-color: #075710;
+        color: white;
+        font-size: 24px;
+}
+
+.noAutoPos {
+        margin: 0;
+        padding: 0;
+}
+
+.headingText {
+        font-family: 'Hina Mincho', serif;
+}
+
+/* NAVBAR CODE STARTS */
+.navBarLogo {
+        padding: .5vmax 2vmax .5vmax 2vmax;
+        display: inline;
+        float: left;
+}
+    
+#navBar {
+        z-index: 1;
+        position: -webkit-sticky;
+        position: sticky;
+        height: 4vmax;
+        width: 100%;
+        top: 0;
+        background-color: #FFA500;
+        overflow: hidden;
+        border-bottom: 4px solid white;
+}
+    
+#navBar a {
+        float: right;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 1.25vmax 1em 1.25vmax;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.5vmax;
+}
+    
+#navBar a:hover {
+        background-color: #FF5C00;
+        color: white;
+        text-decoration: underline;
+}
+    
+#navBar a:visited {
+        color: #B24000;
+}
+    
+#navBar a:visited:hover {
+        color: black;
+        text-decoration: underline;
+}
+    
+#navBar a.active {
+        background-color: #FF5C00;
+        color: #0066FF;
+        text-decoration: underline;
+}
+/* NAVBAR CODE ENDS */
