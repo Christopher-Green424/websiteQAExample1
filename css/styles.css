@@ -2,8 +2,8 @@
 
 /* Palette generated using https://color.adobe.com/create/color-wheel
         Brighter ---> Darker
-Greens: #1AA32A, #3EF053, #075710
-Reds:   #570019, #A31A42
+Greens: #3EF053, #1AA32A, #075710
+Reds:   #A31A42, #570019
 */
 
 /* Photo credits:
@@ -49,7 +49,7 @@ body {
         height: 4vmax;
         width: 100%;
         top: 0;
-        background-color: #FFA500;
+        background-color: #570019;
         overflow: hidden;
         border-bottom: 4px solid white;
 }
@@ -57,7 +57,7 @@ body {
 #navBar a {
         float: right;
         display: block;
-        color: black;
+        color: white;
         text-align: center;
         padding: 1.25vmax 1em 1.25vmax;
         text-decoration: none;
@@ -66,22 +66,17 @@ body {
 }
     
 #navBar a:hover {
-        background-color: #FF5C00;
+        background-color: #A31A42;
         color: white;
         text-decoration: underline;
 }
     
 #navBar a:visited {
-        color: #B24000;
-}
-    
-#navBar a:visited:hover {
-        color: black;
-        text-decoration: underline;
+        color: rgb(215, 215, 215);
 }
     
 #navBar a.active {
-        background-color: #FF5C00;
+        background-color: #A31A42;
         color: #0066FF;
         text-decoration: underline;
 }

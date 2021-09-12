@@ -22,3 +22,16 @@
     position: absolute;
 }
 /* HERO IMAGE CODE ENDS */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    background-color: #570019;
+    border: 3px solid white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
