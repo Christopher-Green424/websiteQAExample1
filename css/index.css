@@ -23,15 +23,41 @@
 }
 /* HERO IMAGE CODE ENDS */
 
+/* Adjust padding between cells in future 9-17-2021 */
 .grid-container {
+    margin: 0 12vw;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
+    row-gap: 5vh;
+    column-gap: 5vw;
 }
 
 .grid-item {
     background-color: #570019;
     border: 3px solid white;
-    padding: 20px;
+    padding: 0px;
     font-size: 30px;
     text-align: center;
+}
+
+.aside-item {
+    background-color: #570019;
+    border: 3px solid white;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-photo-landscape {
+    border-bottom: 3px solid white;
+    width: 50vw;
+    height: 50vh;
+    max-width: 600px;
+    max-height: 338px;
+}
+
+/* Float this left next time 9-17-2021 */
+.grid-photo-portrait {
+    max-width: 338px;
+    max-height: 600px;
 }
