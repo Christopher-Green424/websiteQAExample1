@@ -36,12 +36,22 @@ figure {
     column-gap: 4vmax;
 }
 
+.grid-container-aside {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vw;
+}
+
 .grid-item {
     background-color: #570019;
     border: 3px solid white;
     padding: 0px;
-    font-size: 30px;
-    text-align: center;
+}
+
+.grid-item-aside {
+    background-color: #570019;
+    padding: 0px;
 }
 
 .grid-photo-landscape {
@@ -54,15 +64,26 @@ figure {
 
 /* Float this left next time 9-17-2021 */
 .grid-photo-portrait {
-    max-width: 480px;
-    max-height: 854px;
+    border-right: 3px solid white;
+    max-height: 480px;
 }
 
 .aside-item {
     background-color: #570019;
     border: 3px solid white;
-    margin: 2vh 1vw;
+    width: 50vw;
+    margin: 2vmax 2.5vmax;
     padding: 0px;
     font-size: 30px;
     text-align: left;
+}
+
+.figcaption-text {
+    text-align: center;
+    font-size: 16px;
+}
+
+.grid-text {
+    font-size: 24px;
+    margin: 2vh;
 }
