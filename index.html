@@ -19,13 +19,14 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="noAutoPos">
-    <!-- Navbar - Sticky? -->
     <nav id="navBar">
+        <div class="navFlexContainer">
         <!-- Logo pic -->
-        <img class="navBarLogo" src="#" alt="Logo">
+        <img class="navBarLogo" src="img\logo.png" alt="Logo">
 
         <!-- Contact Page -->
         <a href="contact.html">Contact Us</a>
+        </div>
     </nav>
 
     <!-- Main body of page -->
@@ -80,10 +81,10 @@
         <!-- Float this image left for portrait pic 9-17-2021 -->
         <figure class="aside-item">
             <div class="grid-container-aside">
-                <div class="grid-item-aside" style="width: 273px;">
+                <div class="grid-item-aside" style="width: 273px; height: 480px;">
                     <img class="grid-photo-portrait" src="img\acorn-woodpecker.png" alt="Please hold the text">
                 </div>
-                <div class="grid-item-aside" style="position: absolute; left: 18%; width: 645px;">
+                <div class="grid-item-aside" style="position: absolute; left: 18%; width: 560px;">
                     <figcaption class="figcaption-text">
                         Figcaption text
                     </figcaption>
@@ -95,24 +96,28 @@
         </figure>
     </main>
 
-    <!-- Footer -->
-    <nav>
-        <!-- Links for sitemap -->
-        <ul>
-            <!-- Return to top link -->            
-            <li><a href="#"></a></li>
-            <!-- Contact Page -->
-            <li><a href="#"></a></li>
-        </ul>
+    <!-- Footer w/ fake email, phone number, dead links to social media go here -->
+    <footer class="footerBar">
+        <nav class="footerSocialLinks" id="#socialLinks">
+            <!-- Social media links go here floated left -->
+            <a href="#socialLinks" onclick="socialAlert()"><i class="fab fa-twitter-square"></i></a>
+            <a href="#socialLinks" onclick="socialAlert()"><i class="fab fa-youtube-square"></i></a>
+            <a href="#socialLinks" onclick="socialAlert()"><i class="fab fa-instagram-square"></i></a>
+            <a href="#socialLinks" onclick="socialAlert()"><i class="fab fa-linkedin"></i></a>
+        </nav>
 
-        <!-- Social media links w/ FontAwesome -->
-        <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-        </ul>
-    </nav>
+        <div class="footerContactTxt">
+            <!-- Fake email and phone number go here floated right -->
+            <span>(888)888-8888</span>
+            <span>fake_email8888@gmail.com</span>
+        </div>
+    </footer>
+    <!-- Script stating social media links are fake -->
+    <script>
+        function socialAlert() {
+            alert("Hello! I'm a fake social media link!");
+        }
+    </script>
 </body>
 
 </html>
