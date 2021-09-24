@@ -15,14 +15,22 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body id="returnToTop" class="noAutoPos">
+    <div class="stickyLogo">
+        <a href="index.html"><img class="navBarLogo" src="img\logo.png" alt="Logo"></a>
+    </div>
+
+    <nav id="navBar">
+        <!-- Contact Page -->
+        <a href="index.html">Return to homepage</a>
+    </nav>
     <!-- Google map embed -->
 
     <!-- Main form -->
-    <form action="#">
+    <form action="#" class="formContainer">
         <!-- Name, email, phone number? -->
         <fieldset><legend>Please provide your contact information:</legend>
             <label class="nameLabel" for="nameInput">Name:</label>
@@ -56,18 +64,48 @@
 
             <input type="radio" id="hobbyistLevel" name="skillLevel" value="hobbyistLevel">
             <label id="hobbyistLabel" for="hobbyistLevel">Hobbyist</label>
+        </fieldset>
 
+        <fieldset><legend>Tell us a little about yourself!</legend>
             <!-- Dropdown form with "placeholder" blank answer -->
             <label id="dropdown-label" for="dropdown">Favorite animal?</label>
             <select id="dropdown" name="dropdown">
-                <option value="" disabled selected hidden></option>
+                <option value="" disabled selected hidden>Animal selection</option>
                 <option value=""></option>
                 <option value=""></option>
                 <option value=""></option>
                 <option value=""></option>
-            </select>
+            </select><br><br>
+
+            <label for="feedback">What can we do to improve the website?</label>
+            <input type="text" id="feedback" name="feedback">
         </fieldset>
 
     </form>
+
+    <!-- Footer w/ fake email, phone number, dead links to social media go here -->
+    <footer class="footerBar">
+        <nav class="footerSocialLinks" id="#socialLinks">
+            <!-- Social media links go here floated left -->
+            <a href="#socialLinks" onclick="socialAlert()"><i class="fab fa-twitter-square"></i></a>
+            <a href="#socialLinks" onclick="socialAlert()"><i class="fab fa-youtube-square"></i></a>
+            <a href="#socialLinks" onclick="socialAlert()"><i class="fab fa-instagram-square"></i></a>
+            <a href="#socialLinks" onclick="socialAlert()"><i class="fab fa-linkedin"></i></a>
+        </nav>
+
+        <a class="footerReturn" href="#returnToTop">Return to top</a>
+
+        <div class="footerContactTxt">
+            <!-- Fake email and phone number go here floated right -->
+            <span>(888)888-8888</span>
+            <span>fake_email8888@gmail.com</span>
+        </div>
+    </footer>
+    <!-- Script stating social media links are fake -->
+    <script>
+        function socialAlert() {
+            alert("Hello! I'm a fake social media link!");
+        }
+    </script>
 </body>
 </html>

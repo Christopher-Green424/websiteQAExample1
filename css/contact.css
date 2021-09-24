@@ -1,4 +1,9 @@
 /* contact.html stylesheet */
+.formContainer {
+    height: 100vh;
+    margin: 5vh 35vw;
+}
+
 #name-label {
 
 }
