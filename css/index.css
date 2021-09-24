@@ -75,7 +75,7 @@ figure {
 .aside-item {
     background-color: #570019;
     border: 3px solid white;
-    width: 50vw;
+    width: 45.5vw;
     margin: 2vmax 2.5vmax;
     padding: 0px;
     font-size: 30px;
@@ -87,7 +87,16 @@ figure {
     font-size: 16px;
 }
 
+.figcaption-text a {
+    color: white;
+}
+
+.figcaption-text a:hover {
+    color: turquoise;
+}
+
 .grid-text {
-    font-size: 24px;
+    font-size: calc(12px + 0.25vmax);
+    line-height: 1.5;
     margin: 2vh;
 }

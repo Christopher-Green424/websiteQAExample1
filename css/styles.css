@@ -38,18 +38,17 @@ body {
 }
 
 /* NAVBAR CODE STARTS */
-.navBarLogo {
-        z-index: 10;
-        max-height: 150px;
-        /* padding: .5vmax 2vmax .5vmax 2vmax; */
-        display: inline;
-        float: left;
+.stickyLogo {
+        z-index: 2;
+        position: absolute;
 }
 
-.navFlexContainer {
-        display: inline-flex;
+.navBarLogo {
+        position: -webkit-sticky;
+        position: sticky;
+        height: calc(200px + 5vw);
 }
-    
+
 #navBar {
         z-index: 1;
         position: -webkit-sticky;
