@@ -1,6 +1,11 @@
 /* contact.html stylesheet */
+.flex-container {
+    display: flex;
+    margin: 2vh 20vw;
+}
+
 .formContainer {
-    height: 100vh;
+    height: 120vh;
     margin: 5vh 35vw;
 }
 

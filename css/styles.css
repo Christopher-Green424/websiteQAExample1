@@ -1,4 +1,7 @@
 /* Global stylesheet */
+* {
+        box-sizing: border-box;
+}
 
 /* Palette generated using https://color.adobe.com/create/color-wheel
         Brighter ---> Darker
