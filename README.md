@@ -10,7 +10,7 @@ She has asked us to test her website, but acknowledges that she doesn't have a l
 
 ## Testing Information
 
-### Testing on mobile devices is outside of the scope of this website, as it is. There's no need to spend time on that if you don't want to just see how it looks.
+#### Testing on mobile devices is outside of the scope of this website, as it is. There's no need to spend time on that if you don't want to just see how it looks.
 
 1. Go to the website: [Millerton Lake Natural Photography Club](https://christopher-green424.github.io/websiteQAExample1/)
 2. Find a total of three bugs or enhancements that you have found while observing the website.
