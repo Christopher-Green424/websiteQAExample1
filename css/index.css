@@ -4,7 +4,7 @@
 .heroImage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../img/lakehero.png);
     height: 80vmin;
-    width: 100%;
+    width: 109%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

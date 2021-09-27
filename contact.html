@@ -20,7 +20,7 @@
 </head>
 <body id="returnToTop" class="noAutoPos">
     <div class="stickyLogo">
-        <a href="index.html"><img class="navBarLogo" src="img\logo.png" alt="Logo"></a>
+        <a href="indexhtml"><img class="navBarLogo" src="img\logo.png" alt="Logo"></a>
     </div>
 
     <nav id="navBar">
@@ -40,13 +40,13 @@
         <!-- Name, email, phone number? -->
         <fieldset><legend>Please provide your contact information:</legend>
             <label class="nameLabel" for="nameInput">Name:</label>
-                <input id="nameInput" type="text" placeholder="Enter your name here." required><br><br>
+                <input id="nameInput" type="email" placeholder="Enter your name here." required><br><br>
 
             <label class="emailLabel" for="emailInput">Email:</label>
                 <input id="emailInput" type="email" placeholder="Enter your email here." required><br><br>
                 
             <label class="phoneLabel" for="phoneInput">Phone:</label>
-                <input type="tel" id="phoneInput" name="phone" placeholder="(123)456-7890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <input type="email" id="phoneInput" name="phone" placeholder="(123)456-7890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
         </fieldset>
 
         <!-- Preferred contact method? -->
@@ -77,10 +77,10 @@
             <label id="dropdown-label" for="dropdown">Favorite animal?</label>
             <select id="dropdown" name="dropdown">
                 <option value="" disabled selected hidden>Animal selection</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="bobcat">Bobcat</option>
+                <option value="bald-eagle">Heron</option>
+                <option value="acorn-woodpecker">Bald Eagle</option>
+                <option value="heron">Acorn Woodpecker</option>
             </select><br><br>
 
             <label for="feedback">What can we do to improve the website?</label>
@@ -99,7 +99,7 @@
             <a href="#socialLinks" onclick="socialAlert()"><i class="fab fa-linkedin"></i></a>
         </nav>
 
-        <a class="footerReturn" href="#returnToTop">Return to top</a>
+        <a href="#returnToTop">Return to top</a>
 
         <div class="footerContactTxt">
             <!-- Fake email and phone number go here floated right -->
