@@ -10,5 +10,10 @@ She has asked us to test her website, but acknowledges that she doesn't have a l
 
 ## Testing Information
 
-1. Testing on mobile devices is outside of the scope of this website, as it is. No need to spend time on that if you don't want to test it.
+### Testing on mobile devices is outside of the scope of this website, as it is. There's no need to spend time on that if you don't want to just see how it looks.
+
+1. Go to the website: [Millerton Lake Natural Photography Club](https://christopher-green424.github.io/websiteQAExample1/)
 2. Find a total of three bugs or enhancements that you have found while observing the website.
+3. List them in the issues section using the GitHub issue template, styling it however you like with markdown.
+4. Label the issues appropriately; either bug or enhancement and a priority level. Remember enhancements are always low priority.
+5. Assign the ticket to Chris.
