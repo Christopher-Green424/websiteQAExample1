@@ -1,6 +1,6 @@
 # Millerton Lake Natural Photography Club
 
-Arlene is a hobbyist photographer that is trying to organize a club for people to share her hobby, centered around a local lake, so that it's easily accessible to beginners. Her daughter volunteered designed this website to try to gather volunteers to help her make this idea a reality.
+Arlene is a hobbyist photographer that is trying to organize a club for people to share her hobby, centered around a local lake, so that it's easily accessible to beginners. Her daughter has helped her design this website to try to gather volunteers to make this idea a reality.
 
 She has asked us to test the website, because her daughter doesn't have much experience with website creation and needs help. Arlene knows the website isn't mobile friendly, and has plans in the future to redesign it with that in mind, or get a separate mobile friendly website that would be accessed when someone opens the link from a Google Search, for instance.
 
