@@ -26,5 +26,5 @@ She has asked us to test the website, because her daughter doesn't have much exp
 1. Go to the website: [Millerton Lake Natural Photography Club](https://christopher-green424.github.io/websiteQAExample1/)
 2. Find a total of three bugs or enhancements that you have found while observing the website.
 3. List them in the issues section using the GitHub issue template, styling it however you like with markdown.
-4. Label the issues appropriately; either bug or enhancement and a priority level. Remember enhancements are always low priority.
+4. Label the issues appropriately; as either a bug or an enhancement, and add a priority level. Remember enhancements are always low priority.
 5. Assign the ticket to Chris.
