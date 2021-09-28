@@ -5,7 +5,7 @@ Arlene is a hobbyist photographer that is trying to organize a club for people t
 She has asked us to test the website, because her daughter doesn't have much experience with website creation and needs help. Arlene knows the website isn't mobile friendly, and has plans in the future to redesign it with that in mind, or get a separate mobile friendly website that would be accessed when someone opens the link from a Google Search, for instance.
 
 ## Acceptance Criteria
-1. The website should comply with WCAG 2.0 AA ADA standards.
+1. The website should comply with WCAG 2.1 AA ADA standards.
 2. There is a navbar and footer.
 3. All of the links on the website function as intended.
 4. The logo of the club is present and readable.
