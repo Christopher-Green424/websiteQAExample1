@@ -6,14 +6,22 @@ She has asked us to test the website, because her daughter doesn't have much exp
 
 ## Acceptance Criteria
 1. The website should comply with WCAG 2.0 AA ADA standards.
-2. The website has a consistent theme between pages.
-3. The website has at least 5 bordered images on it.
-4. The website has a contact page with a form and Google Maps embed.
-5. All resources used in the creation of the website are correctly cited and available for use.
+2. There is a navbar and footer.
+3. All of the links on the website function as intended.
+4. The logo of the club is present and readable.
+5. The website's footer has at least four working social media links.
+6. The website has a consistent theme between pages.
+7. The website has at least 5 bordered images on it.
+8. The website has a contact page with a form and Google Maps embed. 
+9. All resources used in the creation of the website are correctly cited and available for use.
+
+## Important Notes
+
+* Testing on mobile devices is outside of the scope of this website, as it is. There's no need to spend time observing the website on mobile devices unless you are curious about how it looks.
+
+* The social media links don't lead to websites. If an alert opens notifying you that the link is a "fake social media link", assume that it is working as intended.
 
 ## Testing Information
-
-#### Testing on mobile devices is outside of the scope of this website, as it is. There's no need to spend time on that if you don't want to just see how it looks.
 
 1. Go to the website: [Millerton Lake Natural Photography Club](https://christopher-green424.github.io/websiteQAExample1/)
 2. Find a total of three bugs or enhancements that you have found while observing the website.
