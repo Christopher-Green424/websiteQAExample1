@@ -23,7 +23,7 @@ She has asked us to test the website, because her daughter doesn't have much exp
 
 ## Testing Information
 
-1. Go to the website: <a href="https://christopher-green424.github.io/websiteQAExample1/" target="_blank">Millerton Lake Natural Photography Club</a>
+1. Go to the website: <a href="https://christopher-green424.github.io/websiteQAExample1/" rel="noopener noreferrer">Millerton Lake Natural Photography Club</a>
 2. Find a total of three bugs or enhancements that you have found while observing the website.
 3. List them in the issues section using the GitHub issue template, styling it however you like with markdown.
 4. Label the issues appropriately; as either a bug or an enhancement, and add a priority level. Remember enhancements are always low priority.
