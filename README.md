@@ -6,14 +6,23 @@ She has asked us to test the website, because her daughter doesn't have much exp
 
 ## Acceptance Criteria
 1. The website should comply with WCAG 2.1 AA ADA standards.
+- [ ] Check if passed
 2. There is a navbar and footer.
+- [ ] Check if passed
 3. All of the links on the website function as intended.
+- [ ] Check if passed
 4. The logo of the club is present and readable.
+- [ ] Check if passed
 5. The website's footer has at least four working social media links.
+- [ ] Check if passed
 6. The website has a consistent theme between pages.
+- [ ] Check if passed
 7. The website has at least 5 bordered images on it.
+- [ ] Check if passed
 8. The website has a contact page with a form and Google Maps embed. 
+- [ ] Check if passed
 9. All resources used in the creation of the website are correctly cited and available for use.
+- [ ] Check if passed
 
 ## Important Notes
 
